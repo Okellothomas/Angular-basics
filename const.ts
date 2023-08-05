@@ -34,4 +34,14 @@ const myschool = 'Kadika primary school!'
 let theschool = `Hi okello, my school is ${myschool}, 
     you will be well pleased to know that`
 
-console.log(myschool)
+console.log(theschool)
+
+// The arrow function
+
+const ping = () => {
+    setTimeout(() => {
+        console.log('ping')
+    }, 1000);
+}
+
+ping()
